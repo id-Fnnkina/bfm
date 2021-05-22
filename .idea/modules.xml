@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/block_finance_management.iml" filepath="$PROJECT_DIR$/block_finance_management.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user_apply/user_apply.iml" filepath="$PROJECT_DIR$/user_apply/user_apply.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,404 @@
+/* =====================================@ set browser style 通用基本类================================================== */
+html, body, h1, h2, h3, h4, h5, h6, div, p, dl, dt, dd, ul, ol, li, form, fieldset, legend, button, submit, input, textarea, select, table, tr, th, td, hr, pre, sup, address, cite, dfn, em, var, blockquote
+{
+    margin: 0;
+    padding: 0;
+}
+label input{ vertical-align:middle;}
+body
+{
+    text-align: left;
+    background: #ffffff;
+    color: #666666;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    min-width: 1200p
+}
+span, a
+{
+    font-family: "微软雅黑";
+}
+a:hove{ text-decoration:none;}
+img
+{
+    border: 0;
+}
+ul
+{
+    list-style: none;
+}
+ol
+{
+    padding-left: 1em;
+}
+a
+{
+    color: #666666;
+    text-decoration: none;
+    outline: none; /*火狐、ie等浏览器 css3去掉a标签点击后的虚线框*/ /*blr:expression(this.onFocus=this.blur()); 	a标签的color:#606060;*/
+}
+a:hover
+{
+    color: #f15927;
+}
+h1, h2, h3, h4, h5, h6
+{
+    font-weight: normal;
+    font-size: 100%;
+}
+h1
+{
+    font-size: 20px;
+}
+table
+{
+    border: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+*:focus
+{
+    outline: none;
+}
+/*去除谷歌黄色边框*/
+/* 修正IE6 fix振动bug */
+html
+{
+    _background-image: url(about:blank);
+    _background-attachment: fixed;
+}
+
+.clear
+{
+    clear: both;
+}
+
+h3
+{
+    font-size: 14px;
+}
+/* =====================================@ set browser style 通用基本类================================================= */
+
+
+/*@font-face {
+    font-family: "fz-EL";
+    src: url("http://s7.qhimg.com/static/957fbbef0c23be98/fz-l-sub.eot") format("embedded-opentype"), url("http://s7.qhimg.com/static/fa74ae2b37116832/fz-l-sub.woff") format("woff");
+	}
+@font-face {
+    font-family: "fz-L";
+    src: url("http://s7.qhimg.com/static/957fbbef0c23be98/fz-l-sub.eot") format("embedded-opentype"), url("http://s7.qhimg.com/static/fa74ae2b37116832/fz-l-sub.woff") format("woff");
+	}*/
+/* =====================================@ set common.css style 公共组件样式================================================= */
+/*美化下拉框 通用*/
+
+textarea
+{
+    border: 1px solid #E9E8E6;
+    color: #666666;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 5px 10px;
+    resize: none;
+    font-family: arial, "微软雅黑";
+}
+
+.pa_container
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 1000px;
+    margin: 0 auto;
+    background: #FFFFFF;
+}
+/*----------------------------------------logo----------------------------------------*/
+.pa_header
+{
+    height: 100px;
+    width: 100%;
+}
+.pa_header .header
+{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+	background:url(../images/bgimg-2.png) no-repeat right 0;
+}
+.pa_header .header a
+{
+    display: block;
+}
+.pa_header .header a.header-logo-xrdk{background:url(../images/logo.png) no-repeat; width:395px; height:100px;}
+.pa_header .header .header_li_logo01
+{
+    background: url(../images/head_logo01.jpg) no-repeat scroll 0px 0px #FFF;
+    width: 70px;
+    height: 37px;
+    float: left;
+    margin-top: 32px;
+}
+
+.pa_header .header .header_li_logo02
+{
+    background: url(../images/head_logo02.jpg) no-repeat scroll 0px 0px #FFF;
+    width: 112px;
+    height: 37px;
+    float: left;
+    margin: 32px 0 0 30px;
+}
+.pa_header .header i
+{
+    background: url(../images/head_logo03.jpg) no-repeat scroll 0px 0px #FFF;
+    width: 160px;
+    height: 42px;
+    float: left;
+    margin: 29px 0 0 30px;
+}
+.pa_header .header span
+{
+    background: url(../images/tel.jpg) no-repeat scroll 0px 0px #FFF;
+    width: 171px;
+    height: 69px;
+    float: right;
+    margin: 12px 67px 0 0px;
+}
+
+
+.pa_header .header .dload
+{
+    float: right;
+    width: 60px;
+    height: 65px;
+    position: relative;
+    text-align: center;
+    margin: 25px 0 0 0;
+}
+.pa_header .header .dload .tubiao
+{ width: 60px;  height: 65px;
+     cursor:pointer; z-index:10; position:absolute;
+    }
+
+.pa_header .header .dload span.tname
+{
+    color: #f4732e;
+    font-size: 12px;
+    line-height: 30px;
+    display: block;
+    font-family: "微软雅黑";
+}
+/*----------------------------------------logo----------------------------------------*/
+
+/*----------------------------------------app下载----------------------------------------*/
+.showapp
+{
+    display: none;
+    position: absolute;
+    z-index: 9;
+    top: -5px;
+    right: 0px;
+    padding-top: 70px;
+}
+.addapp
+{
+    width: 240px;
+    height: 260px;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+}
+
+.addapp i.topjt
+{
+    position: absolute;
+    right: 22px;
+    background: url(../images/add_jt.jpg);
+    width: 12px;
+    height: 9px;
+    display: block;
+    z-index: 10;
+    margin-top: 0px;
+    top: 62px;
+}
+.addapp .uphalf
+{
+    width: 100%;
+    height: 95px;
+    border-bottom: 1px solid #dddddd;
+    cursor: pointer;
+}
+.addapp .uphalf img
+{
+    float: left;
+    margin: 20px 10px 0 20px;
+}
+.addapp .uphalf dl
+{
+    text-align: left;
+    font-size: 14px;
+    float: left;
+    margin-top: 25px;
+    line-height: 25px;
+}
+.addapp .uphalf dl span
+{
+    color: #ea5404;
+    font-family: "微软雅黑";
+}
+.addapp .downhalf
+{
+    width: 200px;
+    padding: 20px 0 0 20px;
+}
+.addapp .downhalf div
+{
+    float: left;
+    width: 90px;
+    height: 20px;
+    text-align: center;
+    padding-top: 100px;
+}
+.addapp .downhalf div span
+{
+    display: block;
+    font-family: "微软雅黑";
+}
+.addapp .downhalf div span.sp2
+{
+    color: #ff6905;
+}
+.addapp .downhalf div.wx_micon1
+{
+    background: url(../images/erweima_weixin.jpg) no-repeat #FFF;
+}
+.addapp .downhalf div.wx_micon2
+{
+    margin-left: 20px;
+    background: url(../images/erweima_gw.png) no-repeat #FFF;
+}
+
+/*----------------------------------------app下载----------------------------------------*/
+
+/*----------------------------------------footer----------------------------------------*/
+.pa_footer
+{
+    width: 100%;
+    height: 245px;
+    border-top: 2px solid #f4732e;
+}
+.pa_footer .footer
+{
+    width: 645px;
+    height: 245px;
+    margin: 0 auto;
+}
+.pa_footer .footer .footer_logo
+{
+    display: block;
+    background: url(../images/logo-2.png) no-repeat scroll 0px 0px #FFF;
+    width: 195px;
+    height: 18px;
+    /*float: left;*/
+    margin: 25px auto;
+    margin-bottom: 10px
+}
+.pa_footer .footer .copyright
+{
+    /*float: left;*/
+    margin: auto;
+    color: #ababab;
+    line-height: 20px;
+    width: 512px;
+}
+.pa_footer .footer .copyright a
+{
+    font-family: "微软雅黑";
+    line-height: 50px;
+    margin-right: 20px;
+    color: #ababab;
+}
+.pa_footer .footer .copyright a:hover
+{
+    color: #828282;
+}
+.pa_footer .footer .copyright .spbottom
+{
+    display: block;
+    margin-top: 10px;
+    color: #828282;
+    /*padding-left: 70px;*/
+}
+.pa_footer .footer .copyright .spbottom span
+{
+    font-family: "微软雅黑";
+    line-height: 32px;
+    margin-left: 15px;
+}
+.pa_footer .footer .copyright i
+{
+    float: left;
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    background: url(../images/20140625_sch.png) no-repeat;
+}
+.pa_footer .footer .copyright .dossier1
+{
+    background-position: 0 -122px;
+}
+.pa_footer .footer .copyright .dossier2
+{
+    background-position: 0 -80px;
+}
+.pa_footer .footer .qr_code
+{
+    float: right;
+    width: 120px;
+    margin-top: 45px;
+}
+.pa_footer .footer .qr_code .weixin, .pa_footer .footer .qr_code .app
+{
+    float: left;
+    background: url(../images/footer_icon.png) no-repeat;
+    width: 120px;
+    height: 20px;
+    line-height: 20px;
+    text-indent: 28px;
+    font-size: 14px;
+}
+.pa_footer .footer .qr_code .weixin
+{
+    background-position: 0px 0px;
+}
+.pa_footer .footer .qr_code .app
+{
+    background-position: 0px -20px;
+}
+.pa_footer .footer .qr_code img
+{
+    width: 120px;
+    height: 120px;
+    margin-top: 10px;
+}
+.pa-foot-ad{background:url(../images/aproImg9.jpg) no-repeat center top #fff; width:100%; height:176px;}
+#returnhome
+{
+    background: url(../images/back.png) no-repeat;
+    position:fixed;
+    width:127px;
+    right:-127px;
+    bottom:50px;
+    font-size:16px;
+    line-height:16px;
+    color:#ffffff;
+    padding:66px 0 18px 0;
+    cursor:pointer;
+    display:block;
+    z-index:999;
+    text-indent:41px;
+}
+#returnhome:hover
+{
+    color:#ffffff;
+}
+/*----------------------------------------footer----------------------------------------*/
