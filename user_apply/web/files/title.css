@@ -6,10 +6,10 @@ a:hover{
     color: #0a6cd6;
 }
 
-table {
-    table-layout: fixed;
-    word-break: break-all;
-}
+/*table {*/
+/*table-layout: fixed;*/
+/*word-break: break-all;*/
+/*}*/
 .container{width:100px;margin:0 auto;}
 .single{width:100px;margin:0 auto;}
 #nav {position:relative; left: 1135px;
@@ -21,10 +21,10 @@ nav ul li{display:inline-block;}
 nav ul a{display:inline-block;line-height:30px;width:90px;text-align:center;
     text-decoration:none;font-size: 16px;transition:background 0.5s linear;}
 .loan_img{
-    position:absolute;width:11px;height:10px;left: 21px;top: 10px;
+    position:absolute;width:11px;height:10px;left: 31px;top: 10px;
 }
 .text_p{
-    position:absolute;top: 5px;left: 43px;
+    position:absolute;top: 5px;left: 53px;
 }
 .loan{
     position:absolute;
@@ -44,11 +44,19 @@ nav ul a{display:inline-block;line-height:30px;width:90px;text-align:center;
 #title_1,#title_2{
     position: absolute;
     left: 18px;
+    width: 223px;
+    height: 30px;
     color:rgba(255, 255, 255, 0.447058823529412);
     font-family:'微软雅黑';
     font-weight:400;
     font-style:normal;
-    font-size:14px;
+    font-size:17px;
+}
+.title_img{
+    position:absolute;width:15px;left: 0px;top: 0px;
+}
+.title_p{
+    position:absolute;top: 0px;left:20px;
 }
 
 #service_2{
@@ -60,7 +68,7 @@ nav ul a{display:inline-block;line-height:30px;width:90px;text-align:center;
 
 #title_1_content,#title_2_content{
     position:absolute;
-    top: 22px;
+    top: 32px;
     width: 200px;
     height: 140px;
 }

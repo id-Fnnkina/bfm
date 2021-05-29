@@ -121,8 +121,15 @@
         <servlet-name>Dashboard</servlet-name>
         <servlet-class>finance.ideal.ui.DashboardServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Control</servlet-name>
+        <servlet-class>finance.ideal.ui.ControlServlet</servlet-class>
+    </servlet>
 
-
+    <servlet-mapping>
+        <servlet-name>Control</servlet-name>
+        <url-pattern>/Control</url-pattern>
+    </servlet-mapping>
     <servlet-mapping>
         <servlet-name>RegisterServlet</servlet-name>
         <url-pattern>/RegisterServlet</url-pattern>

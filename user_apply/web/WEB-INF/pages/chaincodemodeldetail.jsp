@@ -67,58 +67,64 @@
             <div style="position:relative;top: 118px;">
                 <div id="service_1" >
                     <div id="title_1" >
-                        <p >一、金融风险评估业务</p>
+                        <p class="title_p">金融风险评估业务</p>
+                        <%--<img class="loan_img" src="images/moban/u143.png"/>--%>
+                        <%--<p class="title_p">系统管理</p>--%>
+                        <img class="title_img" style="top: 5px;" src="images/moban/title-1.png"/>
                     </div>
                     <div id="title_1_content" >
                         <div id="netloan"class="loan"  style="">
-                            <p class="text_p"><a href="./netloan?buinesstype=netloan">1.1 网贷平台风险评估</a></p>
-                            <!--<img class="loan_img" src="images/moban/u143.png"/>-->
+                            <p class="text_p"><a href="./netloan?buinesstype=netloan">网贷平台风险评估</a></p>
+                            <img class="loan_img" src="images/moban/u143.png"/>
                         </div>
 
                         <div id="enterprise" class="loan" >
-                            <p class="text_p" ><a href="./enterprise?buinesstype=enterprise">1.2 企业经营风险评估</a></p>
-                            <!--<img class="loan_img" src="images/moban/u143.png"/>-->
+                            <p class="text_p" ><a href="./enterprise?buinesstype=enterprise">企业经营风险评估</a></p>
+                            <img class="loan_img" src="images/moban/u143.png"/>
                         </div>
                         <div id="personaloperator" class="loan">
-                            <p class="text_p" ><a href="./personaloperator?buinesstype=personaloperator">1.3 个人运营商信用风险评估</a></p>
-                            <!--<img  class="loan_img" src="images/moban/u143.png"/>-->
+                            <p class="text_p" ><a href="./personaloperator?buinesstype=personaloperator">个人运营商信用风险评估</a></p>
+                            <img  class="loan_img" src="images/moban/u143.png"/>
                         </div>
                         <div id="personalloan" class="loan">
-                            <p class="text_p"style=""><a href="./personalloan?buinesstype=personalloan">1.4 个人贷款信用评估</a></p>
-                            <!--<img class="loan_img" style=" "  src="images/moban/u143.png"/>-->
+                            <p class="text_p"style=""><a href="./personalloan?buinesstype=personalloan">个人贷款信用评估</a></p>
+                            <img class="loan_img" style=" "  src="images/moban/u143.png"/>
                         </div>
                     </div>
                 </div>
                 <div id="service_2" >
                     <div id="title_2" >
-                        <p >二、系统管理</p>
+                        <p class="title_p">系统管理</p>
+                        <%--<img class="loan_img" src="images/moban/u143.png"/>--%>
+                        <%--<p class="title_p">系统管理</p>--%>
+                        <img class="title_img" src="images/moban/title-2.png"/>
                     </div>
                     <div id="title_2_content" >
                         <div id="member"class="loan" >
-                            <p class="text_p"><a href="./member">2.1 联盟成员管理</a></p>
-                            <!--<img class="loan_img" src="images/moban/u143.png"/>-->
+                            <p class="text_p"><a href="./member">联盟成员管理</a></p>
+                            <img class="loan_img" src="images/moban/u143.png"/>
                         </div>
 
                         <div id="workplace" class="loan" >
-                            <p class="text_p" ><a href="./workplace">2.2 金融风险防控任务管理</a></p>
-                            <!--<img class="loan_img" src="images/moban/u143.png"/>-->
+                            <p class="text_p" ><a href="./workplace">金融风险防控任务管理</a></p>
+                            <img class="loan_img" src="images/moban/u143.png"/>
                         </div>
                         <div id="chaincode" class="loan">
-                            <p class="text_p" ><a href="./chaincode">2.3 区块链查询管理</a></p>
-                            <!--<img  class="loan_img" src="images/moban/u143.png"/>-->
+                            <p class="text_p" ><a href="./chaincode">区块链查询管理</a></p>
+                            <img  class="loan_img" src="images/moban/u143.png"/>
                         </div>
                         <div id="model" class="loan">
-                            <p class="text_p"><a href="./model">2.4 评估模型管理</a></p>
-                            <!--<img class="loan_img" style=" "  src="images/moban/u143.png"/>-->
+                            <p class="text_p"><a href="./model">评估模型管理</a></p>
+                            <img class="loan_img" style=" "  src="images/moban/u143.png"/>
                         </div>
                         <div id="Dashboard" class="loan">
-                            <p class="text_p"><a href="./Dashboard">2.5 综合报表</a></p>
-                            <!--<img class="loan_img" style=" "  src="images/moban/u143.png"/>-->
+                            <p class="text_p"><a href="./Dashboard">综合报表</a></p>
+                            <img class="loan_img" style=" "  src="images/moban/u143.png"/>
                         </div>
 
                         <div id="log" class="loan">
-                            <p class="text_p"><a href="./log">2.6 系统日志</a></p>
-                            <!--<img class="loan_img" style=" "  src="images/moban/u143.png"/>-->
+                            <p class="text_p"><a href="./log">系统日志</a></p>
+                            <img class="loan_img" style=" "  src="images/moban/u143.png"/>
                         </div>
                     </div>
                 </div>

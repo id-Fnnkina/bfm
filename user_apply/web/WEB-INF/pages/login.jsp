@@ -38,7 +38,7 @@
     <div id="title" align="center">
         <p id="title_p" align="center">大数据金融风控系统管理员登录界面</p>
     </div>
-    <form id="myform"  name="Form1" action="管理主界面.html" method="post">
+    <form id="myform"  name="Form1" action="Control" method="post">
         <div id="title_1">
             <label for="username">
             <span class="text_p">管理者用户名：</span><input id="username" type="text" name="username" onkeydown=KeyDown()>

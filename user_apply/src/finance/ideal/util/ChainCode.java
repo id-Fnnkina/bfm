@@ -23,18 +23,18 @@ public class ChainCode {
     String token = "wwwwwwwwwwwwwwwwwwwwwwwwww";
 
     //final static  String baseUrl = "http://192.168.20.68:8031/";
-//    final static  String baseUrl = "http://172.31.24.34:8031/enroll";
-//    final static  String invokeUrl = "http://172.31.24.34:8031/api/invoke";
-//    final static  String Url1 = "http://172.31.24.34:8031/index";
-//    final static  String Url2 = "http://172.31.24.34:8031/actuator/info";
-//    final static  String modelUrl = "http://47.101.169.47:5000/predict";
+    final static  String baseUrl = "http://172.31.24.34:8031/enroll";
+    final static  String invokeUrl = "http://172.31.24.34:8031/api/invoke";
+    final static  String Url1 = "http://172.31.24.34:8031/index";
+    final static  String Url2 = "http://172.31.24.34:8031/actuator/info";
+    final static  String modelUrl = "http://47.101.169.47:5000/predict";
 
     //fudan
-    final static  String baseUrl = "http://10.190.11.70:8031/enroll";
-    final static  String invokeUrl = "http://10.190.11.70:8031/api/invoke";
-    final static  String Url1 = "http://10.190.11.70:8031/index";
-    final static  String Url2 = "http://10.190.11.70:8031/actuator/info";
-    final static  String modelUrl = "http://47.101.169.47:5000/predict";
+//    final static  String baseUrl = "http://10.190.11.70:8031/enroll";
+//    final static  String invokeUrl = "http://10.190.11.70:8031/api/invoke";
+//    final static  String Url1 = "http://10.190.11.70:8031/index";
+//    final static  String Url2 = "http://10.190.11.70:8031/actuator/info";
+//    final static  String modelUrl = "http://47.101.169.47:5000/predict";
 
     public void invoke(Applicant applicant, SysConfig sc, String source,String sourceUrl) throws Exception {
 
