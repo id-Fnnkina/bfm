@@ -216,7 +216,7 @@
                     <div class="business" style="position: absolute;top: 0px;left: 240px;">
                         <div class="business_img" ><img src="images/1、联盟成员列表/u1957.png"></div>
                         <div class="business_Title" ><a href="./model">评估模型管理</a></div>
-                        <div class="business_describe" >描述： <br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp管理评估模型的配置，添加评估模型以及查看模型详情.....................................................................</div><br>
+                        <div class="business_describe" >描述： <br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp管理评估模型的配置，添加模型以及查看模型详情.....................................................................</div><br>
 
                     </div>
                     <div class="business" style="position: absolute;top: 0px;left: 590px;">

@@ -23,12 +23,12 @@ public class JdbcUtils {
     private static final String DRIVER = "com.mysql.jdbc.Driver";
     //数据库地址
     //private static final String URL = "jdbc:mysql://localhost:3306/block_finance_management?useUnicode=true&characterEncoding=UTF-8";
-    private static final String URL = "jdbc:mysql://172.31.24.34:3306/block_finance_management?" +
-            "useUnicode=true&characterEncoding=UTF-8&autoReconnect=true";
+//    private static final String URL = "jdbc:mysql://172.31.24.34:3306/block_finance_management?" +
+//            "useUnicode=true&characterEncoding=UTF-8&autoReconnect=true";
 
     //fudan
-//    private static final String URL = "jdbc:mysql://10.190.11.64:3306/block_finance_management?" +
-//            "useUnicodecode=true&characterEncoding=UTF-8&autoReconnect=true";
+    private static final String URL = "jdbc:mysql://10.190.11.64:3306/block_finance_management?" +
+            "useUnicodecode=true&characterEncoding=UTF-8&autoReconnect=true";
 
     private static Connection connection = null;
     private PreparedStatement pstmt;

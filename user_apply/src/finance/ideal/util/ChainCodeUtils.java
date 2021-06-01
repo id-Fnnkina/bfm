@@ -22,10 +22,15 @@ import java.util.Date;
 public class ChainCodeUtils {
     String token = "wwwwwwwwwwwwwwwwwwwwwwwwww";
 
+    //园区
     //final static  String baseUrl = "http://192.168.20.68:8031/";
-    final static  String baseUrl = "http://172.31.24.34:8031/enroll";
-    final static  String invokeUrl = "http://172.31.24.34:8031/api/invoke";
-    public final static  String queryUrl = "http://172.31.24.34:8031/api/query";
+//    final static  String baseUrl = "http://172.31.24.34:8031/enroll";
+//    final static  String invokeUrl = "http://172.31.24.34:8031/api/invoke";
+//    public final static  String queryUrl = "http://172.31.24.34:8031/api/query";
+    //复旦
+    final static  String baseUrl = "http://10.190.11.72:8031/enroll";
+    final static  String invokeUrl = "http://10.190.11.72:8031/api/invoke";
+    public final static  String queryUrl = "http://10.190.11.72:8031/api/query";
 
     public void invoke(Applicant applicant, SysConfig sc, String source) throws Exception {
 

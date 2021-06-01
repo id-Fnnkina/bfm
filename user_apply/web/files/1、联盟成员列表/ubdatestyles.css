@@ -187,10 +187,6 @@
     font-size:14px;
 }
 
-.loan:hover{
-    background: #26afd6;
-}
-
 a:link,a:visited{
     text-decoration:none;  /*超链接无下划线*/
 }
@@ -200,10 +196,10 @@ a:hover{
 }
 
 .loan_img{
-    position:absolute;width:11px;height:10px;left: 21px;top: 10px;
+    position:absolute;width:11px;height:10px;left: 31px;top: 10px;
 }
 .text_p{
-    position:absolute;top: 5px;left: 43px;
+    position:absolute;top: 5px;left: 53px;
 }
 
 .container{width:100px;margin:0 auto;}
