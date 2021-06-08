@@ -11,6 +11,10 @@ import java.io.IOException;
  * Created by AIR on 2018/10/30.
  */
 
+
+/**
+ * 管理主页
+ */
 public class ControlServlet extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response)
              throws ServletException, IOException {

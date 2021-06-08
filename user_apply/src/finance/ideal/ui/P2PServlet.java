@@ -8,8 +8,9 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * P2P页面信息
+ * P2P页面信息      "未用到"
  */
+
 public class P2PServlet extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {

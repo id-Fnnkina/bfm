@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.util.List;
 
 /**
- * 联盟成员
+ * 联盟成员显示主页
  */
 public class MemberServlet extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response)

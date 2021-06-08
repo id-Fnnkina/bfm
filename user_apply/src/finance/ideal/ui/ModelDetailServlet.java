@@ -13,7 +13,7 @@ import java.io.IOException;
 import java.util.List;
 
 /**
- * 模型细节查询
+ * 评估模型详情
  */
 public class ModelDetailServlet extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response)

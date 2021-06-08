@@ -15,7 +15,9 @@ import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
 
 
-//上传文件
+/**
+ * 上传文件
+ */
 public class FileSelectServlet extends HttpServlet {
 
 

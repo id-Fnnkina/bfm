@@ -5,6 +5,7 @@ import finance.ideal.daoImpl.DashboardImpl;
 import finance.ideal.daoImpl.MemberImpl;
 import finance.ideal.domain.Dashboard;
 
+
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -15,7 +16,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * 业务详情查询
+ * 综合报表
  */
 public class DashboardServlet extends HttpServlet {
 

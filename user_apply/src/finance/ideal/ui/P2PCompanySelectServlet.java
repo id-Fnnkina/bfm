@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.util.List;
 
 /**
- * 查询公司详细信息
+ * 查询公司详细信息     "未用到"
  */
 public class P2PCompanySelectServlet extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response)

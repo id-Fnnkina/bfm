@@ -13,7 +13,7 @@ import java.io.IOException;
 import java.util.List;
 
 /**
- * 查找某公司
+ * 查找某公司        "未用到"
  */
 public class P2PSelectServlet extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response)
